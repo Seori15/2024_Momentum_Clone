@@ -4,10 +4,6 @@
 @import "quotes.css";
 @import "todo.css";
 
-.hidden {
-  display: none;
-}
-
 main {
   display: flex;
   flex-direction: column;
@@ -63,4 +59,8 @@ main {
     font-size: 10px;
     border-radius: 2rem;
   }
+}
+
+.hidden {
+  display: none;
 }
