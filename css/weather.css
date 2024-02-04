@@ -1,0 +1,11 @@
+#weather {
+  position: fixed;
+  top: 5px;
+  right: 5px;
+  font-size: 18px;
+  width: 80px;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  color: white;
+}

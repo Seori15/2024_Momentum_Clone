@@ -1,0 +1,22 @@
+#quote {
+  position: fixed;
+  bottom: 5px;
+  width: 80%;
+  text-align: center;
+  font-size: 22px;
+  color: rgba(214, 212, 212, 0.829);
+}
+#quote span:first-child {
+  font-style: italic;
+}
+
+@media screen and (max-width: 550px) {
+  #quote {
+    position: fixed;
+    bottom: 50px;
+    width: 80%;
+    text-align: center;
+    font-size: 22px;
+    color: rgba(214, 212, 212, 0.829);
+  }
+}

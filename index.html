@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Momentum App</title>
-    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/styles.css" />
   </head>
   <body>
     <form class="login-form hidden">
@@ -16,21 +16,30 @@
       />
       <button>Log In</button>
     </form>
-    <h2 class="clock">00:00:00</h2>
-    <h1 class="greeting hidden"></h1>
-    <form id="todo-form">
-      <input type="text" placeholder="Write a To Do and Press Enter" required />
-    </form>
-    <ul id="todo-list"></ul>
+    <main>
+      <h2 class="clock">00:00:00</h2>
+      <h1 class="greeting hidden"></h1>
+    </main>
+    <div class="todos">
+      <form id="todo-form">
+        <input type="text" placeholder="Enter your To Do list" required />
+      </form>
+      <ul id="todo-list"></ul>
+    </div>
+    <div id="weather">
+      <span></span>
+      <div></div>
+    </div>
     <div id="quote">
       <span></span>
       <span></span>
     </div>
-    <script src="js/greetings.js"></script>
     <script src="js/clock.js"></script>
+    <script src="js/greetings.js"></script>
     <script src="js/quotes.js"></script>
     <script src="js/background.js"></script>
     <script src="js/todo.js"></script>
+    <script src="js/apikey.js"></script>
     <script src="js/weather.js"></script>
   </body>
 </html>

@@ -1,0 +1,21 @@
+.todos {
+  position: fixed;
+  bottom: 5px;
+  right: 5px;
+  display: flex;
+  flex-direction: column-reverse;
+  align-items: end;
+}
+#todo-form input {
+  border: none;
+  background: transparent;
+  color: white;
+  font-size: 18px;
+}
+#todo-form input::placeholder {
+  color: rgba(214, 212, 212, 0.829);
+}
+#todo-list {
+  font-size: 22px;
+  color: white;
+}
