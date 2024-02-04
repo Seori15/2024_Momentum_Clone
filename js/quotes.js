@@ -26,7 +26,7 @@ const quotes = [
     author: "<The Incredibles>",
   },
   {
-    auote: "Remember me, each time you hear a sad guitar.",
+    quote: "Remember me, each time you hear a sad guitar.",
     author: "<Coco>",
   },
 ];
